@@ -88,7 +88,7 @@ subplot(2,1,1);
 plot(t1, audio_resampled, 'LineWidth', 1.5);
 xlabel('Time (sec)');
 ylabel('Amplitude');
-title('Time Domain Plot of the Resampled Signal');
+title('Time Domain Plot of the Resampled Signal'); 
 
 % Compute and plot frequency-domain representation using Fs_fft
 Y = fft(audio_resampled, n);
